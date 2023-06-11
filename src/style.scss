@@ -1,0 +1,146 @@
+$primary: #12284c;
+$secondary: #00adbb;
+
+@import "bootstrap/scss/bootstrap";
+@import "bootstrap/scss/_variables";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+input.placeholder-light::placeholder {
+	color: $light;
+}
+
+.big {
+	font-size: calc(1.625rem + 2.5vw) !important;
+}
+
+#footer {
+	margin-top: 80px;
+}
+
+#header {
+	min-height: 80px;
+}
+
+#banner {
+	margin-top: 80px;
+
+	img {
+		height: 200px;
+		width: 100%;
+		margin-bottom: -15px;
+
+		@media screen and (min-width: 991px) {
+			height: 300px;
+			width: 80%;
+			margin-bottom: -60px;
+		}
+	}
+}
+
+#main {
+	.main-content {
+		max-width: 850px;
+		margin: 80px auto 0 auto;
+
+		@media screen and (min-width: 991px) {
+			margin-top: 120px;
+		}
+	}
+}
+
+#home-page {
+	#hero {
+		background: url("/banner.jpeg");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		margin-top: 80px;
+
+		.hero-content {
+			padding: 175px 32px 165px 32px;
+			background-color: #12284ca8;
+		}
+	}
+
+	#shortcuts {
+		.shortcut {
+			width: 172px;
+			height: 128px;
+		}
+	}
+
+	#slide {
+		#slide-mobile,
+		#carousel .carousel-inner {
+			height: 450px;
+		}
+
+		.carousel-indicators {
+			position: static;
+
+			button {
+				height: 20px;
+				width: 20px;
+				border-radius: 50%;
+				background: transparent;
+				border: 1px solid black;
+				justify-content: center;
+				align-items: center;
+				position: relative;
+
+				&.active::after {
+					content: "";
+					height: 14px;
+					width: 14px;
+					position: absolute;
+					background-color: black;
+					top: 50%;
+					left: 50%;
+					border-radius: 50%;
+					transform: translate(-50%, -50%);
+				}
+			}
+		}
+	}
+
+	#results {
+		padding-top: 90px;
+		background-image: url("/circle-texture.png");
+		background-repeat: no-repeat;
+		background-position: 0% 0%;
+
+		.result {
+			width: 172px;
+			height: 128px;
+		}
+	}
+
+	#events {
+		padding-top: 90px;
+	}
+}
+
+#results-page {
+	.table {
+		thead {
+			background: $primary;
+		}
+
+		img {
+			height: 28px;
+		}
+	}
+}
+
+#about-page {
+	#indexes {
+		img {
+			width: 250px;
+			height: 182px;
+		}
+	}
+
+	.image-container {
+		height: 280px;
+	}
+}

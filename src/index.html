@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/logo.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>YDUQS</title>
+		<script type="module" src="/main.js" defer></script>
+	</head>
+	<body id="home-page">
+		<header id="header" class="navbar fixed-top navbar-dark p-3 bg-primary">
+			<div class="container">
+				<a href="index.html" class="navbar-brand">
+					<img src="/logo.svg" alt="Logo da YDUQS" />
+				</a>
+
+				<div class="d-none d-lg-flex align-items-center text-white">
+					<div class="d-flex fw-bold column-gap-2 me-3 small">
+						<p class="m-0">
+							YDUQ3:
+							<span class="text-secondary">R$ 35,13</span>
+						</p>
+						<p class="m-0">
+							YDUQY:
+							<span class="text-secondary">R$ 35,13</span>
+						</p>
+					</div>
+					<i class="bi bi-graph-up-arrow fs-5 text-secondary"></i>
+				</div>
+
+				<div class="d-none d-md-flex align-items-center text-white column-gap-2 small">
+					<p class="m-0">Acessibilidade:</p>
+					<i class="bi bi-circle-half"></i>
+					<p class="m-0">A+</p>
+					<p class="m-0">A-</p>
+				</div>
+
+				<div class="d-flex align-items-center column-gap-3">
+					<img src="/en-square.png" alt="English language" class="d-none d-md-block" />
+
+					<i class="bi bi-bell text-white fs-5"></i>
+
+					<i class="bi bi-search text-white fs-5 d-none d-md-block"></i>
+
+					<button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbar-offcanvas" aria-controls="navbar-offcanvas" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+
+				<div class="offcanvas offcanvas-end p-3 bg-primary" id="navbar-offcanvas">
+					<div class="offcanvas-header">
+						<a href="index.html" class="offcanvas-title">
+							<img src="/logo.svg" alt="Logo da YDUQS" />
+						</a>
+						<button type="button" class="btn-close-white btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+					</div>
+
+					<div class="offcanvas-body d-flex flex-column border-2 border-top py-4 row-gap-3">
+						<div class="d-flex justify-content-between align-items-center text-white">
+							<div class="d-flex fw-bold column-gap-2 small">
+								<p class="m-0">
+									YDUQ3:
+									<span class="text-secondary">R$ 35,13</span>
+								</p>
+								<p class="m-0">
+									YDUQY:
+									<span class="text-secondary">R$ 35,13</span>
+								</p>
+							</div>
+							<i class="bi bi-graph-up-arrow fs-4 text-secondary"></i>
+						</div>
+						<div class="d-flex justify-content-end">
+							<p class="text-white">
+								English
+								<img src="/en-square.png" alt="English language" />
+							</p>
+						</div>
+
+						<form action="">
+							<div class="input-group">
+								<span class="input-group-text bg-transparent border-end-0">
+									<i class="bi bi-search text-white"></i>
+								</span>
+								<input type="text" class="form-control bg-transparent border-start-0 placeholder-light text-light" placeholder="Pesquisar" />
+							</div>
+						</form>
+
+						<div class="d-flex flex-column row-gap-1">
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">A YDUQS</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="/about.html">Quem Somos</a></li>
+										<li><a class="dropdown-item" href="#">Nossa História</a></li>
+										<li><a class="dropdown-item" href="#">Unidades de Negócio</a></li>
+										<li><a class="dropdown-item" href="#">Transformação Digital</a></li>
+										<li><a class="dropdown-item" href="#">Estrutura Societária</a></li>
+										<li><a class="dropdown-item" href="#">Nossa Liderança</a></li>
+										<li><a class="dropdown-item" href="#">Notícias</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">ESG</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Governança Corporativa</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Central de Resultados</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Informações ao Investidor</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+									</ul>
+								</li>
+							</ul>
+
+							<ul class="navbar-nav text-end">
+								<li class="nav-item dropdown">
+									<a class="nav-link dropdown-toggle text-secondary fw-semibold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Contato</a>
+									<ul class="dropdown-menu text-end bg-transparent border-0 dropdown-menu-dark">
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+										<li><a class="dropdown-item" href="#">Lorem Ipsum</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<section id="hero">
+			<div class="hero-content d-flex justify-content-center align-items-center flex-column text-white text-center">
+				<h1 class="">Divulgação de Resultados</h1>
+				<h2 class="text-secondary">3T21</h2>
+				<a href="/results.html" class="btn btn-outline-light mt-3">Saiba mais</a>
+			</div>
+		</section>
+
+		<section id="shortcuts" class="bg-primary py-5 px-3 flex-wrap d-flex justify-content-center column-gap-2 row-gap-3 column-gap-lg-4">
+			<a href="#" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-resultados.svg" alt="Resultados" />
+				<p class="m-0 mt-3">Resultados</p>
+			</a>
+			<a href="#" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-comunicados.svg" alt="Comunicados e FR" />
+				<p class="m-0 mt-3">Comunicados e FR</p>
+			</a>
+			<a href="/presentations.html" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-apresentacoes.svg" alt="Apresentações" />
+				<p class="m-0 mt-3">Apresentações</p>
+			</a>
+			<a href="#" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-yduqs-day.svg" alt="YDUQS Day" />
+				<p class="m-0 mt-3">YDUQS Day</p>
+			</a>
+			<a href="#" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-fale-conosco.svg" alt="Fale conosco" />
+				<p class="m-0 mt-3">Fale conosco</p>
+			</a>
+			<a href="#" class="shortcut text-decoration-none text-primary bg-secondary d-flex justify-content-center align-items-center text-center flex-column rounded">
+				<img src="/sc-mailing.svg" alt="Mailing" />
+				<p class="m-0 mt-3">Mailing</p>
+			</a>
+		</section>
+
+		<section id="slide">
+			<div id="carousel" class="carousel slide d-lg-none">
+				<div class="carousel-inner m-0">
+					<div class="carousel-item h-100 active">
+						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="carousel-item h-100">
+						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="carousel-item h-100">
+						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="carousel-item h-100">
+						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+				</div>
+				<div class="carousel-indicators py-3 m-0">
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+				</div>
+			</div>
+
+			<div id="slide-mobile" class="d-lg-block d-none">
+				<div class="row h-100 m-0">
+					<div class="col p-0">
+						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="col p-0">
+						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="col p-0">
+						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+					<div class="col p-0">
+						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="results-events" class="row row-cols-1 row-cols-lg-2 w-100 m-0 px-lg-5">
+			<section id="results" class="d-flex flex-column align-items-center text-center px-3">
+				<h1 class="text-lg-start align-self-lg-start">Central de Resultados</h1>
+				<h2>1T21</h2>
+
+				<div class="py-3 justify-content-center row row-cols-auto row-gap-2">
+					<a href="#" class="result text-decoration-none text-primary d-flex justify-content-center align-items-center text-center flex-column">
+						<img src="/result1.svg" alt="ITR" />
+						<p class="m-0 mt-3">ITR</p>
+					</a>
+					<a href="/presentations.html" class="result text-decoration-none text-primary d-flex justify-content-center align-items-center text-center flex-column">
+						<img src="/result2.svg" alt="Apresentação de Resultados" />
+						<p class="m-0 mt-3">Apresentação de Resultados</p>
+					</a>
+					<a href="#" class="result text-decoration-none text-primary d-flex justify-content-center align-items-center text-center flex-column">
+						<img src="/result3.svg" alt="Release de Resultados" />
+						<p class="m-0 mt-3">Release de Resultados</p>
+					</a>
+					<a href="#" class="result text-decoration-none text-primary d-flex justify-content-center align-items-center text-center flex-column">
+						<img src="/result4.svg" alt="Planilha de Apoio" />
+						<p class="m-0 mt-3">Planilha de Apoio</p>
+					</a>
+					<a href="#" class="result text-decoration-none text-primary d-flex justify-content-center align-items-center text-center flex-column">
+						<img src="/result5.svg" alt="Call de Resultados" />
+						<p class="m-0 mt-3">Call de Resultados</p>
+					</a>
+				</div>
+				<a href="/results.html" class="text-primary mt-4">Ver todos os resultados</a>
+			</section>
+
+			<section id="events" class="d-flex flex-column align-items-center px-3">
+				<h1 class="text-center text-lg-start align-self-lg-start">Calendário de Eventos</h1>
+
+				<div class="py-3 d-flex flex-column w-100">
+					<div class="py-2 d-flex flex-column row-gap-1 border-bottom border-dark border-opacity-25">
+						<p class="text-secondary m-0">ABR | <strong>23</strong></p>
+						<p class="m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+						<p class="text-light-emphasis m-0 text-body-tertiary">00:00 - 23:59 (Horário de Brasília)</p>
+						<div class="d-flex">
+							<img class="me-3" src="/gmail.svg" alt="Gmail" />
+							<img src="/outlook.svg" alt="Outlook" />
+						</div>
+					</div>
+					<div class="py-2 d-flex flex-column row-gap-1 border-bottom border-dark border-opacity-25">
+						<p class="text-secondary m-0">ABR | <strong>23</strong></p>
+						<p class="m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+						<p class="text-light-emphasis m-0 text-body-tertiary">00:00 - 23:59 (Horário de Brasília)</p>
+						<div class="d-flex">
+							<img class="me-3" src="/gmail.svg" alt="Gmail" />
+							<img src="/outlook.svg" alt="Outlook" />
+						</div>
+					</div>
+					<div class="py-2 d-flex flex-column row-gap-1">
+						<p class="text-secondary m-0">ABR | <strong>23</strong></p>
+						<p class="m-0">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint</p>
+						<p class="text-light-emphasis m-0 text-body-tertiary">00:00 - 23:59 (Horário de Brasília)</p>
+						<div class="d-flex">
+							<img class="me-3" src="/gmail.svg" alt="Gmail" />
+							<img src="/outlook.svg" alt="Outlook" />
+						</div>
+					</div>
+				</div>
+				<a href="#" class="text-primary mt-4">Ver todos os eventos</a>
+			</section>
+		</section>
+
+		<footer id="footer" class="bg-primary text-white">
+			<div class="container d-flex flex-column flex-lg-row justify-content-between align-items-center p-3 row-gap-2">
+				<p class="m-0 text-secondary">Copyright 2021 YDUQS</p>
+				<p class="m-0">Termo de Privacidade | Termos e Condições</p>
+				<p class="m-0">Trabalhe Conosco <i class="bi bi-linkedin text-secondary fs-4 d-lg-none ms-2"></i></p>
+				<i class="bi bi-linkedin text-secondary fs-4 d-none d-lg-inline"></i>
+				<p class="m-0">Desenvolvido por: <strong>RIWeb</strong></p>
+			</div>
+		</footer>
+	</body>
+</html>
