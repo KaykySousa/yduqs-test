@@ -161,11 +161,14 @@
 			</div>
 		</header>
 
-		<section id="hero">
-			<div class="hero-content d-flex justify-content-center align-items-center flex-column text-white text-center">
-				<h1 class="">Divulgação de Resultados</h1>
-				<h2 class="text-secondary">3T21</h2>
-				<a href="/results.html" class="btn btn-outline-light mt-3">Saiba mais</a>
+		<section id="hero" class="bg-primary">
+			<div class="hero-content">
+				<div class="container d-flex justify-content-center align-items-center align-items-lg-start flex-column text-white text-center">
+					<h1 class="">Divulgação de Resultados</h1>
+					<h2 class="text-secondary d-none d-lg-block">3T21</h2>
+					<h2 class="text-secondary fw-light d-lg-none fs-1">1º TRI 2021</h2>
+					<a href="/results.html" class="btn btn-outline-light mt-3">Saiba mais</a>
+				</div>
 			</div>
 		</section>
 
@@ -196,43 +199,59 @@
 			</a>
 		</section>
 
-		<section id="slide">
-			<div id="carousel" class="carousel slide d-lg-none">
+		<section id="institutional">
+			<div id="institutional-sm" class="carousel slide d-lg-none">
 				<div class="carousel-inner m-0">
 					<div class="carousel-item h-100 active">
-						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Quem somos" />
 					</div>
 					<div class="carousel-item h-100">
-						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nossas unidades de negócio" />
 					</div>
 					<div class="carousel-item h-100">
-						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nossa estratégia" />
 					</div>
 					<div class="carousel-item h-100">
-						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nosso impacto (ESG)" />
 					</div>
 				</div>
 				<div class="carousel-indicators py-3 m-0">
-					<button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					<button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					<button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					<button type="button" data-bs-target="#carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+					<button type="button" data-bs-target="#institutional-sm" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#institutional-sm" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#institutional-sm" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					<button type="button" data-bs-target="#institutional-sm" data-bs-slide-to="3" aria-label="Slide 4"></button>
 				</div>
 			</div>
 
-			<div id="slide-mobile" class="d-lg-block d-none">
+			<div id="institutional-lg" class="d-lg-block d-none">
 				<div class="row h-100 m-0">
-					<div class="col p-0">
-						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					<div class="col p-0 position-relative">
+						<img src="/about-banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Quem somos" />
+						<div class="card-content position-absolute bg-opacity-50 bg-primary top-0 start-0 w-100 h-100 d-flex px-4 py-5 flex-column justify-content-between align-items-start">
+							<img src="/card1.svg" alt="" />
+							<p class="text-white m-0 fs-5">Quem <br />Somos</p>
+						</div>
 					</div>
-					<div class="col p-0">
-						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					<div class="col p-0 position-relative">
+						<img src="/banner.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nossas unidades de negócio" />
+						<div class="card-content position-absolute bg-opacity-50 bg-primary top-0 start-0 w-100 h-100 d-flex px-4 py-5 flex-column justify-content-between align-items-start">
+							<img src="/card2.svg" alt="" />
+							<p class="text-white m-0 fs-5">Nossas unidades <br />de negócio</p>
+						</div>
 					</div>
-					<div class="col p-0">
-						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					<div class="col p-0 position-relative">
+						<img src="/slide3.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nossa estratégia" />
+						<div class="card-content position-absolute bg-opacity-50 bg-primary top-0 start-0 w-100 h-100 d-flex px-4 py-5 flex-column justify-content-between align-items-start">
+							<img src="/card3.svg" alt="" />
+							<p class="text-white m-0 fs-5">Nossa <br />estratégia</p>
+						</div>
 					</div>
-					<div class="col p-0">
-						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="..." />
+					<div class="col p-0 position-relative">
+						<img src="/slide4.jpeg" class="d-block w-100 h-100 object-fit-cover" alt="Nosso impacto (ESG)" />
+						<div class="card-content position-absolute bg-opacity-50 bg-primary top-0 start-0 w-100 h-100 d-flex px-4 py-5 flex-column justify-content-between align-items-start">
+							<img src="/card4.svg" alt="" />
+							<p class="text-white m-0 fs-5">Nosso impacto <br />(ESG)</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -240,7 +259,7 @@
 
 		<section id="results-events" class="row row-cols-1 row-cols-lg-2 w-100 m-0 px-lg-5">
 			<section id="results" class="d-flex flex-column align-items-center text-center px-3">
-				<h1 class="text-lg-start align-self-lg-start">Central de Resultados</h1>
+				<h1 class="text-lg-start align-self-lg-start fw-light">Central de Resultados</h1>
 				<h2>1T21</h2>
 
 				<div class="py-3 justify-content-center row row-cols-auto row-gap-2">
@@ -269,7 +288,7 @@
 			</section>
 
 			<section id="events" class="d-flex flex-column align-items-center px-3">
-				<h1 class="text-center text-lg-start align-self-lg-start">Calendário de Eventos</h1>
+				<h1 class="text-center text-lg-start align-self-lg-start fw-light">Calendário de Eventos</h1>
 
 				<div class="py-3 d-flex flex-column w-100">
 					<div class="py-2 d-flex flex-column row-gap-1 border-bottom border-dark border-opacity-25">
